@@ -1,0 +1,25 @@
+{
+  "name": "seed-recovery-cli",
+  "version": "0.1.0",
+  "description": "Partial BIP-39 recovery CLI with checksum pruning and optional address derivation",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "recover": "bin/recover.js"
+  },
+  "scripts": {
+    "start": "node bin/recover.js --help"
+  },
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.6",
+    "bip32": "^5.0.0",
+    "tiny-secp256k1": "^2.2.3",
+    "chalk": "^5.3.0",
+    "cli-progress": "^3.12.0",
+    "commander": "^12.1.0",
+    "ethers": "^6.13.2",
+    "p-limit": "^5.0.0",
+    "prompts": "^2.4.2"
+  }
+}
